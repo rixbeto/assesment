@@ -37,3 +37,19 @@ taminternational.ipynb to open the aplication
         node.between(2,9)
 
 
+
+There is another option to develop only using basic python data structures (dict,list)
+You can find it in the file easyway.ipynb.
+At the end of the file you can find a example of how to use the code: 
+
+
+    node = DataCapture()
+    node.add(3)
+    node.add(3)
+    node.add(3)
+    node.add(3)
+    node.add(3)
+    node.add(10)
+    node.build_stats()
+
+    print(node.less(10))
